@@ -8,7 +8,7 @@ import { Crops } from './crops';
 export class RestService {
 
   constructor(private http:HttpClient) { }
-  url:string="http://localhost:3000/CropsAnalysis";
+  url:string="http://127.0.0.1:8000/detect";
   getCropsAnalysis(){
     return this.http.get<Crops[]>(this.url);
   }

@@ -11,7 +11,7 @@
     {
       "id":2,
       "cropType":"Maize",
-      "cropAccuracy": "80%",
+      "cropAccuracy": "80%", 
       "cropDisease":"parasitic plants",
       "diseaseAccuracy": "80%",
       "recommendation":"Spray with Nitric Acid"
